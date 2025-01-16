@@ -1,0 +1,197 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			// uni-ui 规则如下配置
+			"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue",
+			"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+		}
+	},
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"name": "index",
+			"aliasPath": "/",
+			"style": {
+				"navigationBarTitleText": "LANNA SPRING"
+			}
+		},
+		// {
+		// 	"path": "pages/products/products",
+		// 	"name": "products",
+		// 	"aliasPath": "/products",
+		// 	"style": {
+		// 		"navigationBarTitleText": "产品"
+		// 	}
+		// },
+
+		// {
+		// 	"path": "pages/activity/activity",
+		// 	"name": "activity",
+		// 	"aliasPath": "/activity",
+		// 	"style": {
+		// 		"navigationBarTitleText": "活动"
+		// 	}
+		// },
+		{
+			"path": "pages/auth/auth",
+			"name": "auth",
+			"aliasPath": "/auth",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/productDetail/productDetail",
+			"name": "productDetail",
+			"aliasPath": "/productDetail",
+			"style": {
+				"navigationBarTitleText": "产品详情"
+			}
+		},
+		{
+			"path": "pages/profileDetail/profileDetail",
+			"name": "profileDetail",
+			"aliasPath": "/profileDetail",
+			"style": {
+				"navigationBarTitleText": "个人资料"
+			}
+		},
+		{
+			"path": "pages/servicesList/servicesList",
+			"name": "servicesList",
+			"aliasPath": "/servicesList",
+			"style": {
+				"navigationBarTitleText": "选择项目"
+			}
+		},
+		{
+			"path": "pages/tickets/tickets",
+			"name": "tickets",
+			"aliasPath": "/tickets",
+			"style": {
+				"navigationBarTitleText": "卡券"
+			}
+		},
+		{
+			"path": "pages/amount/amount",
+			"name": "amount",
+			"aliasPath": "/amount",
+			"style": {
+				"navigationBarTitleText": "余额消费记录"
+			}
+		},
+		// {
+		// 	"path": "pages/serviceOrderList/serviceOrderList",
+		// 	"name": "serviceOrderList",
+		// 	"aliasPath": "/serviceOrderList",
+		// 	"style": {
+		// 		"navigationBarTitleText": "服务订单列表"
+		// 	}
+		// },
+		{
+			"path": "pages/serviceOrderDetail/serviceOrderDetail",
+			"name": "serviceOrderDetail",
+			"aliasPath": "/serviceOrderDetail",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/productsOrderList/productsOrderList",
+			"name": "productsOrderList",
+			"aliasPath": "/productsOrderList",
+			"style": {
+				"navigationBarTitleText": "商品订单列表"
+			}
+		},
+		{
+			"path": "pages/productOrderDetail/productOrderDetail",
+			"name": "/productOrderDetail",
+			"aliasPath": "/productOrderDetail",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		}
+		// {
+		// 	"path": "pages/commentService/commentService",
+		// 	"name": "/commentService",
+		// 	"aliasPath": "/commentService",
+		// 	"style": {
+		// 		"navigationBarTitleText": "订单评价"
+		// 	}
+		// }
+		// {
+	],
+	"subPackages":[
+		{
+			"root":"subA",
+			"pages":[
+				{
+					"path": "serviceOrderList/serviceOrderList",
+					"name": "serviceOrderList",
+					"aliasPath": "/serviceOrderList",
+					"style": {
+						"navigationBarTitleText": "服务订单列表"
+					}
+				},
+				{
+					"path": "commentService/commentService",
+					"name": "/commentService",
+					"aliasPath": "/commentService",
+					"style": {
+						"navigationBarTitleText": "订单评价"
+					}
+				},
+				{
+					"path": "points/points",
+					"name": "points",
+					"aliasPath": "/points",
+					"style": {
+						"navigationBarTitleText": "积分消费记录"
+					}
+				},
+				{
+					"path": "perferenceDetail/perferenceDetail",
+					"name": "perferenceDetail",
+					"aliasPath": "/perferenceDetail",
+					"style": {
+						"navigationBarTitleText": "偏好设置"
+					}
+				},
+				{
+					"path": "memberBenefits/memberBenefits",
+					"name": "memberBenefits",
+					"aliasPath": "/memberBenefits",
+					"style": {
+						"navigationBarTitleText": "会员权益"
+					}
+				},
+				{
+					"path": "instructions/instructions",
+					"name": "instructions",
+					"aliasPath": "/instructions",
+					"style": {
+						"navigationBarTitleText": "使用说明"
+					}
+				},
+				{
+					"path": "aboutUs/aboutUs",
+					"name": "aboutUs",
+					"aliasPath": "/aboutUs",
+					"style": {
+						"navigationBarTitleText": "关于我们"
+					}
+				}
+			]
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "LANNA SPRING",
+		"navigationBarBackgroundColor": "#d9c1a5",
+		"backgroundColor": "#faf7f2"
+	}
+}
